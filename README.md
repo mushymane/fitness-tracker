@@ -26,6 +26,7 @@ Visit the website at: [Heroku](https://evening-tor-88716.herokuapp.com/)
 - Express.js - back end web application framework
 - MongoDB - non-relational database management system
 - Mongoose - ODM
+- Morgan - HTTP request logger middleware
 - Insomnia - API client for testing REST endpoints
 - Bootstrap - CSS Framework
 - Git - version control
