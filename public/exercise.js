@@ -116,6 +116,7 @@ async function handleFormSubmit(event) {
 
   await API.addExercise(workoutData);
   clearInputs();
+  validateInputs();
   toast.classList.add("success");
 }
 
@@ -135,6 +136,7 @@ function clearInputs() {
   repsInput.value = "";
   resistanceDurationInput.value = "";
   weightInput.value = "";
+  
 }
 
 if (workoutTypeSelect) {
